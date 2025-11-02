@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .login-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        #message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-form">
+        <h2>Admin Login</h2>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button onclick="checkCredentials()">Login</button>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        // CodeNinja's Unhackable Authentication System™
+        // Now with military-grade obfuscation!
+        const _0x4f8d = ['value', 'username', 'message', 'color', 'green', 'innerText', 'href', 'style', 'getElementById', 'Login\x20successful!\x20Redirecting...', 'Invalid\x20credentials!']; (function (_0x5e075d, _0x4f8d6d) { const _0x44e5e7 = function (_0x3c7a8b) { while (--_0x3c7a8b) { _0x5e075d['push'](_0x5e075d['shift']()); } }; _0x44e5e7(++_0x4f8d6d); }(_0x4f8d, 0x1d3)); const _0x44e5 = function (_0x5e075d, _0x4f8d6d) { _0x5e075d = _0x5e075d - 0x0; let _0x44e5e7 = _0x4f8d[_0x5e075d]; return _0x44e5e7; };
+
+        // Super secure key generation
+        const _k = [
+            String.fromCharCode(97, 100, 109, 105, 110), // Definitely not the username
+            "VmVyeVNlY3VyZTEyMyFAIw=="
+        ];
+
+        // Ultra-secure validation function
+        function _v(s) {
+            return Array.from(s).reduce((a, c) => a + c.charCodeAt(0), 0);
+        }
+
+        // Quantum-encrypted check function
+        function checkCredentials() {
+            const u = document.getElementById(_0x44e5('username'))[_0x44e5('value')];
+            const p = document.getElementById('password')[_0x44e5('value')];
+
+            // Advanced proprietary algorithm
+            if (_v(u) === 548 && _v(p) === 1337) {
+                const m = document.getElementById(_0x44e5('message'));
+                m[_0x44e5('style')][_0x44e5('color')] = _0x44e5('green');
+                m[_0x44e5('innerText')] = _0x44e5('Login\x20successful!\x20Redirecting...');
+
+                setTimeout(() => {
+                    window.location = './flag10200c01230301203psdfsdg1.html';
+                }, 1000);
+            } else {
+                document.getElementById(_0x44e5('message'))[_0x44e5('innerText')] = _0x44e5('Invalid\x20credentials!');
+            }
+        }
+    </script>
+</body>
+
+</html>
